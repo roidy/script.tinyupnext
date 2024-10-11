@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.tinyupnext" name="tinyUpNext" version="0.0.1" provider-name="roidy">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.infotagger" version="0.0.7" />"
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="plugin.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <summary lang="en_GB">tinyUpNext</summary>
+        <description lang="en_GB"></description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum></forum>
+        <source></source>
+        <assets>
+            <icon></icon>
+            <fanart></fanart>
+        </assets>
+    </extension>
+</addon>
